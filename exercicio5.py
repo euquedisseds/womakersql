@@ -12,7 +12,7 @@ cursor = conexao.cursor()
 #exercicio 5: Criar uma Tabela e Inserir Dados
 #Crie uma tabela chamada "clientes" com os campos: id (chave primária), nome (texto), idade (inteiro) e saldo (float).
 
-#cursor.execute('CREATE TABLE clientes(id INT PRIMARY KEY, nome VARCHAR(100), idade INT, saldo FLOAT)')
+cursor.execute('CREATE TABLE clientes(id INT PRIMARY KEY, nome VARCHAR(100), idade INT, saldo FLOAT)')
 
 #Insira algunsregistros de clientes na tabela
 cursor.execute('INSERT INTO clientes(id, nome, idade, saldo) VALUES (1,"Davi", 58,1339.47)')
